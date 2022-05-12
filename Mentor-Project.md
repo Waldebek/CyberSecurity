@@ -1,26 +1,26 @@
-## Mentor Project - Questions & Answers
+# Mentor Project - Questions & Answers
 
 Report on the weaknesses on the following protocols and how they can be 
 secured to prevent data leakage.
  
-# HTTP   
+## HTTP   
 Is an application protocol that sends hypermedia documents.
 Unencrypted data that can be interfered with by 3rd parties to be gathered from 2 systems.
 We can use HTTPS protocol to protect the integrity of the users computer and the
             site.
              
-# DNS
+## DNS
 DNS servers will share information such as server names and IP Addresses to anyone that requests it internally. The most effective ways to harden DNS servers would be to disable zone transfers, Use firewalls to control access and enable DDNS for secure connections.
 DNS cache poisoning or (Man-in-the-middle) would be another common attack where an attacker will enter false information into the DNS cache which would trick the DNS server to be directed to the wrong websites. The best way to prevent this kind of an attack would be to implement DNSSEC.
 
-# EMAIL
+## EMAIL
 Email has many protocols such as Simple Mail Transfer Protocol (SMTP), Post Office Protocol (POP3), and Internet Message Access Protocol (IMAP).
 SMTP main weakness is that users are not verified when their is a connection established. Implementing SSL/TLS would provide an extra layer of security as it encrypts the messages exchanged between email client and email server. 
 POP3 Sends information using clear text which is a security issue.
 IMAP has a lack of support for user authentication along with sending information in plaintext, Reconfiguring clients and servers to use port 993 will help harden IMAP  security.
 
 
-# FTP  
+## FTP  
 FTP is a communication protocol that transfers files from a server to a clients
 Computer.
 It is a protocol that isn’t using encryption which makes it accessible to hacker attacks.
@@ -34,7 +34,7 @@ SSH is a form of cryptography that is used in a process of transferring data in 
 
 
 
-# Explain how DHCP works and how a system administrator can prevent ‘rogue severs’ and ‘man in the middle attacks’.
+## Explain how DHCP works and how a system administrator can prevent ‘rogue severs’ and ‘man in the middle attacks’.
 DHCP is a network management protocol. It automates IP addresses to there assigned hosts either connected wirelessly or wired. An example of DHCP is when a device tries to 
 gain access to a network that is using DHCP, The DHCP server sends the IP address to the device.
 
@@ -48,7 +48,7 @@ Attacks can also have ethical issues as IOT devices become more prevalent such a
 
 
 
-# Discuss the use of “ransomware” in recent attack and how they can be prevented.
+## Discuss the use of “ransomware” in recent attack and how they can be prevented.
 Ransomware is a malicious cyberattack that encrypts your file/s which prevents the user
 from accessing it, only the attackers have a decryption key which can access the encrypted files.
 
