@@ -57,3 +57,10 @@ A recent cyber attack was against the Irish Health Service (HSE). This attack wa
 We cannot completely stop the ransomware attacks but we can take necessary percussions to decrease the damage of the attack.
 Backup files,Anti-ransom software,User training on suspicious activity,Updates to software,
 these are just some examples on how to prevent a ransomware attacks.
+
+### AAA is an extreamly important concept we discuss in security.
+AAA means Authentication,Authorization and Accounting.
+Authorization is the act of verifying a users identity on a site.
+Authorization is having specific priviledges on certain rights.
+Accounting is monitoring users actions.
+In security we use those 3 factors for users and the sites safety.
