@@ -28,6 +28,10 @@ We can use SFTP to secure our files as the SFTP uses encryption and secures the
           	Integrity of the files and information.
 SSH is a form of cryptography that is used in a process of transferring data in a secure way, it also communicates with both computers safely.
 
+### State Password Requirements 
+Password Requirements help to keep information safe, Normally a password should be a least eight characters in lenght, Uppercase letter (A-Z) Lowercase letter (a-z) Digits (0-9) Special characters (~'!@#%^&*()+=_-{}[]/|\;:"?<>,.)
+A password must not contain first name, middle or last name,email address, login ID.
+
 
 
 
